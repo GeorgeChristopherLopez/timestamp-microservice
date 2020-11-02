@@ -1,0 +1,48 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A cool thing made with Glitch">
+
+    <title>API Project: Timestamp Microservice</title>
+
+     <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <header style="text-align:center">
+         <h1>
+      API Project: Timestamp Microservice
+      </h1> 
+     </header>
+
+    <main >
+     <div style="display:grid; ">
+       <h4>Example Usage:</h4>
+       <a id="utcExample" href="/api/timestamp/">[project url]/api/timestamp/2015-12-25</a>
+       <br>
+       <a id="unixExample" href="/api/timestamp/">[project url]/api/timestamp/1451001600000</a>
+    </div>
+    <div>
+      <h4>Example Output:</h4>
+   <p id="result">{"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}</p> 
+    </div>
+
+
+
+    </main>
+
+    <footer>Made by <a href="https://georgechristopherlopez.github.io">George Lopez</a>!</footer>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+   
+  </body>
+</html>
